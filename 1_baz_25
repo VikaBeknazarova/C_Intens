@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float a, b, x;
+    cout << "Введите значение a: ";
+    cin >> a;
+    cout << "Введите значение b: ";
+    cin >> b;
+    if(a == 0) {
+        cout << "Ошибка: a не может быть равно нулю." << endl;
+        return 0;
+    }
+    x = -b / a;
+    cout << "Корень уравнения " << a << "x + " << b << " = 0 равен " << x << endl;
+    return 0;
+}
