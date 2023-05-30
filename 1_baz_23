@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float volume, mass, density;
+    cout << "Введите объем тела (в кубических сантиметрах): ";
+    cin >> volume;
+    cout << "Введите массу тела (в граммах): ";
+    cin >> mass;
+    density = mass / (volume / 1000); // переводим объем в кубические миллиметры
+    cout << "Плотность материала тела равна " << density << " г/см^3" << endl;
+    return 0;
+}
