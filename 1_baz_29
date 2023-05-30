@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float a, b, h, p;
+    cout << "Введите значение основания a: ";
+    cin >> a;
+    cout << "Введите значение основания b: ";
+    cin >> b;
+    cout << "Введите значение высоты h: ";
+    cin >> h;
+    p = a + b + 2 * sqrt((h * h) + ((b - a) * (b - a)) / 4);
+    cout << "Периметр равнобедренной трапеции с основаниями " << a << " и " << b << " и высотой " << h << " равен " << p << endl;
+    return 0;
+}
