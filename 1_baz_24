@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int population, area;
+    double density;
+    cout << "Введите количество жителей: ";
+    cin >> population;
+    cout << "Введите площадь территории: ";
+    cin >> area;
+    density = static_cast<double>(population) / area; // находим плотность населения
+    cout << "Плотность населения равна " << density << endl;
+    return 0;
+}
