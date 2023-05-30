@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    int a, b;
+    double arithmetic_mean, geometric_mean;
+    cout << "Введите два целых числа: ";
+    cin >> a >> b;
+    arithmetic_mean = (a + b) / 2.0; // находим среднее арифметическое
+    geometric_mean = sqrt(a * b); // находим среднее геометрическое
+    cout << "Среднее арифметическое равно " << arithmetic_mean << endl;
+    cout << "Среднее геометрическое равно " << geometric_mean << endl;
+    return 0;
+}
