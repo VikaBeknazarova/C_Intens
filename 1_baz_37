@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, b, angle, area;
+    cout << "Enter the length of the larger base of the trapezoid: ";
+    cin >> a;
+    cout << "Enter the length of the smaller base of the trapezoid: ";
+    cin >> b;
+    cout << "Enter the angle between the larger base and a slant side (in degrees): ";
+    cin >> angle;
+    // convert angle from degrees to radians
+    angle = angle * M_PI / 180.0;
+    // calculate the height of the trapezoid
+    double h = (b / 2.0) * tan(angle);
+    // calculate the area of the trapezoid
+    area = (a + b) * h / 2.0;
+    cout << "Area of the trapezoid: " << area << endl;
+    return 0;
+}
