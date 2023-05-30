@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, b, c, volume, surface_area;
+    cout << "Enter the length of the first side: ";
+    cin >> a;
+    cout << "Enter the length of the second side: ";
+    cin >> b;
+    cout << "Enter the length of the third side: ";
+    cin >> c;
+    volume = a * b * c;
+    surface_area = 2 * (a * b + b * c + c * a);
+    cout << "Volume: " << volume << endl;
+    cout << "Surface area: " << surface_area << endl;
+    return 0;
+}
