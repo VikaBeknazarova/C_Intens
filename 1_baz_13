@@ -1,0 +1,27 @@
+a) 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    float x, y;
+    cout << "Введите значение x: ";
+    cin >> x;
+    y = 7 * x * x - 3 * x + 6;
+    cout << "Значение функции y = 7x^2 - 3x + 6 равно " << y << endl;
+    return 0;
+}
+
+б)
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    float a, x;
+    cout << "Введите значение a: ";
+    cin >> a;
+    x = a - 12 * a * a + 7 * a - 16;
+    cout << "Значение функции x = a - 12a^2 + 7a - 16 равно " << x << endl;
+    return 0;
+}
