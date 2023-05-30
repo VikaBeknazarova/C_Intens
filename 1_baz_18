@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    double R = 6350; // радиус Земли в километрах
+    double h, d;
+    cout << "Введите высоту над Землей в километрах: ";
+    cin >> h;
+    d = 2 * sqrt(pow(R + h, 2) - pow(R, 2)); // формула расчета расстояния до линии горизонта
+    cout << "Расстояние до линии горизонта равно " << d << " км" << endl;
+    return 0;
+}
