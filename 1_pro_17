@@ -1,0 +1,31 @@
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+int main()
+
+{
+
+double v, V, me, h, A;
+
+me = 9.1e-31; // масса электрона
+
+h = 6.626e-34; // постоянная Планка
+
+cout << "Введите частоту фотона (в Гц): ";
+
+cin >> v;
+
+cout << "Введите скорость электрона на выходе (в м/с): ";
+
+cin >> V;
+
+if (h * v < me * pow(V, 2) / 2) { // если hv < meV^2/2
+
+cout << "Ошибка: введены некорректные значения v и V" << endl;
+
+return 0;
+
+}
