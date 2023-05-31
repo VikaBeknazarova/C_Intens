@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double a, b, s, m;
+    std::cout << "Введите два числа: ";
+    std::cin >> a >> b;
+    s = (std::abs(a) + std::abs(b)) / 2.0;
+    m = std::sqrt(std::abs(a) * std::abs(b));
+    std::cout << "Среднее арифметическое модулей: " << s << "\n";
+    std::cout << "Среднее геометрическое модулей: " << m << "\n";
+    return 0;
+}
+```
