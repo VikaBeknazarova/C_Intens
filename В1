@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    double a;
+
+    cout << "Введите длину стороны квадрата: ";
+    cin >> a;
+
+    double p = 4 * a;
+
+    cout << "Периметр квадрата равен " << p << endl;
+
+    return 0;
+}
