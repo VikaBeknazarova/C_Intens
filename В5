@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, V, S;
+
+    cout << "Введите длину ребра куба (a): ";
+    cin >> a;
+
+    V = a * a * a;
+    S = 6 * a * a;
+
+    cout << "Объем куба (V) = " << V << endl;
+    cout << "Площадь поверхности куба (S) = " << S << endl;
+
+    return 0;
+}
