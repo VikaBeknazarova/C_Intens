@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    double R1, R2, S1, S2, S3;
+
+    cout << "Enter the value of R1: ";
+    cin >> R1;
+    cout << "Enter the value of R2: ";
+    cin >> R2;
+
+    S1 = M_PI * pow(R1, 2);
+    S2 = M_PI * pow(R2, 2);
+    S3 = S1 - S2;
+
+    cout << "The area of circle 1 (S1) is: " << S1 << endl;
+    cout << "The area of circle 2 (S2) is: " << S2 << endl;
+    cout << "The area of the ring (S3) is: " << S3 << endl;
+
+    return 0;
+}
