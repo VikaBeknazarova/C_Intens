@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double a, s;
+
+    cout << "Введите длину стороны квадрата: ";
+    cin >> a;
+
+    s = a * a;
+
+    cout << "Площадь квадрата: " << s << endl;
+
+    return 0;
+}
