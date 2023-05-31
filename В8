@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() {
+  int a, b;
+  double avg;
+
+  std::cout << "Enter two numbers: ";
+  std::cin >> a >> b;
+
+  avg = (a + b) / 2.0;
+
+  std::cout << "The average of " << a << " and " << b << " is " << avg << std::endl;
+
+  return 0;
+}
