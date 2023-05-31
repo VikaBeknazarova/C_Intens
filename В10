@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   float num1, num2, sum, dif, prod, divs;
+   
+   // Запрос пользователю двух чисел
+   cout << "Введите первое число: ";
+   cin >> num1;
+   cout << "Введите второе число: ";
+   cin >> num2;
+   
+   // Вычисляем сумму, разность, произведение и частное квадратов чисел 
+   sum = num1*num1 + num2*num2;
+   dif = num1*num1 - num2*num2;
+   prod = num1*num1*num2*num2;
+   divs = (num1*num1) / (num2*num2);
+   
+   // Выводим результаты на экран
+   cout << "Сумма квадратов: " << sum << endl;
+   cout << "Разность квадратов: " << dif << endl;
+   cout << "Произведение квадратов: " << prod << endl;
+   cout << "Частное квадратов: " << divs << endl;
+   
+   return 0;
+}
