@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double L, R, S;
+    const double pi = 3.14;
+
+    cout << "Enter the length of the circumference: ";
+    cin >> L;
+
+    R = L / (2 * pi);
+    S = pi * R * R;
+
+    cout << "The radius of the circle is: " << R << endl;
+    cout << "The area of the circle is: " << S << endl;
+
+    return 0;
+}
