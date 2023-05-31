@@ -1,0 +1,218 @@
+// г 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double a;
+
+cout << "Введите вещественное число a: ";
+
+cin >> a;
+
+// г) a^8 за три операции
+
+double a2 = a * a;
+
+double a4 = a2 * a2;
+
+double a8 = a4 * a4;
+
+cout << "a^8 = " << a8 << endl;
+
+return 0;
+
+}
+// д 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double a;
+
+cout << "Введите вещественное число a: ";
+
+cin >> a;
+
+// д) a^9 за четыре операции
+
+double a3 = a * a2;
+
+double a9 = a3 * a3 * a3;
+
+cout << "a^9 = " << a9 << endl;
+
+return 0;
+
+}
+// е
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double a;
+
+cout << "Введите вещественное число a: ";
+
+cin >> a;
+
+// e) a^10 за четыре операции
+
+double a5 = a4 * a;
+
+double a10 = a5 * a5;
+
+cout << "a^10 = " << a10 << endl;
+
+return 0;
+
+}
+
+ж)
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double a;
+
+cout << "Введите число a: ";
+
+cin >> a;
+
+double a2 = a * a;
+
+double a4 = a2 * a2;
+
+double a8 = a4 * a4;
+
+double a12 = a8 * a4;
+
+double a13 = a12 * a;
+
+cout << "a^13 = " << a13 << endl;
+
+return 0;
+
+}
+
+з)
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double a;
+
+cin >> a;
+
+double b = a * a;
+
+double c = b * b;
+
+double d = c * c;
+
+double e = d * c;
+
+double f = e * b;
+
+cout << f << endl;
+
+return 0;
+
+}
+
+и)
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double a;
+
+cout << "Введите число a: ";
+
+cin >> a;
+
+double a2 = a * a;
+
+double a4 = a2 * a2;
+
+double a8 = a4 * a4;
+
+double a16 = a8 * a8;
+
+double a20 = a16 * a4;
+
+double a21 = a20 * a;
+
+cout << "a^21 = " << a21 << endl;
+
+return 0;
+
+}
+
+к)
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double a;
+
+cout << "Введите вещественное число a: ";
+
+cin >> a;
+
+double a14 = a * a * a * a * a * a * a * a * a * a * a * a * a * a;
+
+double a28 = a14 * a14;
+
+cout << "a^28 = " << a28 << endl;
+
+return 0;
+
+}
+
+
+//l
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+float a;
+
+cin >> a ;
+
+float a2 = a * a;
+
+float a4 = a2 * a2;
+
+float a8 = a4 * a4;
+
+float a16 = a8 * a8;
+
+float a32 = a16 * a16;
+
+float a64 = a32 * a32;
+
+cout << a64;
+
+return 0;
+
+}
