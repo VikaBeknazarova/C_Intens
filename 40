@@ -1,0 +1,48 @@
+а)
+#include <iostream>
+using namespace std;
+
+int main() {
+  int a = 3, b = 5, c = 7;
+
+  // выводим исходные значения переменных
+  cout << "Исходные значения:" << endl;
+  cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
+
+  // меняем значения переменных
+  int temp = b;
+  b = c;
+  c = a;
+  a = temp;
+
+  // выводим новые значения переменных
+  cout << "Новые значения:" << endl;
+  cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
+
+  return 0;
+}
+
+б)
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int a = 3, b = 5, c = 7;
+
+  // выводим исходные значения переменных
+  cout << "Исходные значения:" << endl;
+  cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
+
+  // меняем значения переменных
+  int temp = a;
+  a = b;
+  b = c;
+  c = temp;
+
+  // выводим новые значения переменных
+  cout << "Новые значения:" << endl;
+  cout << "a = " << a << ", b = " << b << ", c = " << c << endl;
+
+  return 0;
+}
